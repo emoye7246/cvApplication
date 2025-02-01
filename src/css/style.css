@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'GoogleSans';
+    font-weight: 200;
+    src: url('/Users/elijahmoye/Desktop/Cv_Application-CVAPPLICATION/cvApplication/src/assets/Fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf');
+}
+
+
+:root{
+
+    font-family: 'GoogleSans';
+    color: black;
+}
+
+
+
+body{
+
+    display: flex;
+    margin: 0px;
+}
+
+label{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+input, select{
+
+    height: 28px;
+    width: 140px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 1.3px 1.3px gray;
+}
+
+h3, h1{
+
+    display: flex;
+    justify-content: center;
+}
+
+strong{
+
+    font-size: large;
+}
+
+.App{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: scroll;
+    row-gap: 20px;
+    border: 1px solid black;
+    border-bottom: none;
+    width: 25vw;
+    height: 100vh;
+
+}
+
+.cvDisplay{
+    position: relative;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 100vh;
+
+}
+/* CSS */
+button {
+  align-items: center;
+  background-color: #fff;
+  border: 0.5px solid rgb(0, 0, 0);
+  border-radius: .375em;
+  box-shadow: 0px 1.3px 1.3px gray;
+  box-sizing: border-box;
+  color: #363636;
+  cursor: pointer;
+  padding: calc(.5em - 1px) 1em;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+
+button:hover {
+  border-color: #dbd5d5;
+}
+
+
